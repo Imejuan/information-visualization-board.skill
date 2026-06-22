@@ -27,6 +27,12 @@ and a mood**; this file is the **hard rules of the medium**.
   left and right inside it.
 - **Arrows and connectors in diagrams:** use inline SVG with `<line>` + `marker-end`, or CSS
   border tricks. Never use emoji arrows (→ ➡) as structural connectors in diagrams.
+- **SVG text inside shapes must be vertically centered:** set `y` to the vertical midpoint of the
+  shape (e.g. rect y=38 height=28 → text y=52), and always add `dominant-baseline="middle"`.
+  Never place the `y` value below the shape's bottom edge.
+- **Centered text blocks must have explicit `text-align: center`** on the element itself — never
+  rely on inheritance from a parent container. Hero titles, subtitles, and any centered label
+  must carry their own `text-align: center` declaration.
 
 ## Typography rules
 
