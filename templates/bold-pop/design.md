@@ -88,7 +88,9 @@ The image shows: near-black backgrounds, vivid orange-red `#FF4520` accent, crea
 | Large rounded corners (20–24px) everywhere | Sharp corners or small radius |
 | Hard drop shadows in orange-red | Blurred shadows |
 | Orange-red accent on near-black canvas | Pastel colors or gradients |
-| Mix dark + light panels in the same section | All-same-surface monotone layouts |
-| Arrow icon from Material Symbols | Emoji arrows or unicode arrows as connectors |
+| Use `#FFFFFF` or `#F5F0E8` for all content cards and panels | Dark panels (`#111111`, `#2D2D2D`) — they blend into the `#1A1A1A` canvas and are invisible |
+| Arrow icon from inline SVG only | Emoji arrows or font-based icons |
 | 阿里妈妈数黑体 / Noto Sans SC | Serif fonts or display fonts not in the palette |
 | Bold hierarchy: huge numbers, heavy titles | Uniform weight — no hierarchy |
+
+> **Critical rule — no dark cards on dark canvas:** `--surface-dark` (`#111111`) and `--surface-mid` (`#2D2D2D`) are nearly invisible against the `#1A1A1A` canvas. Never use them as card or panel backgrounds. Restrict dark fills to the Hero section only (where they serve as high-contrast stat blocks against an accent-color hero). For all content sections, use `#FFFFFF` (with hard shadow `6px 6px 0 #FF4520`) or `#F5F0E8` (cream, no shadow needed).
