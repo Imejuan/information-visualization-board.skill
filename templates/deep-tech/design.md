@@ -60,7 +60,7 @@ font-family: 'Outfit', 'Noto Sans SC', -apple-system, "PingFang SC", "Microsoft 
 
 ## Layout rules
 
-- **Canvas:** `#060A14` full-width body. Content column is **1600px** centered, `padding: 48px 0 80px`.
+- **Canvas:** `#060A14` full-width body. Content column is **1400px** centered, `padding: 48px 0 80px`.
 - **Boards:** dark container `background: #0A0F1E`, `border-radius: 20px`, `border: 1px solid rgba(34,220,224,0.12)`, `padding: 56px 60px 60px`. Top accent line: `height: 2px; background: linear-gradient(90deg, #0396FF 0%, #22dce0 50%, transparent 100%)` using `::before`.
 - **Board eyebrow:** `font-size: 13px; font-weight: 700; letter-spacing: 2.5px; color: #22dce0; text-transform: uppercase;` with a glowing dot `::before` (`width: 6px; height: 6px; background: #22dce0; border-radius: 50%; box-shadow: 0 0 8px #22dce0`).
 - **Inner cards:** `background: #131B2E; border-radius: 10–16px; border: 1px solid rgba(34,220,224,0.12)`.

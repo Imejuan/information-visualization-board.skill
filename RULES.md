@@ -11,7 +11,7 @@ and a mood**; this file is the **hard rules of the medium**.
 - **No external fonts.** Use the system font stack:
   `font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;`
   This gives clean CJK + Latin rendering on macOS, Windows, and Linux without any download.
-- **Fixed content width: 1600px**, centered with `margin: 0 auto`. Height is auto — let content
+- **Fixed content width: 1400px**, centered with `margin: 0 auto`. Height is auto — let content
   define the length. Never set a fixed height on the page body.
 - **No JavaScript libraries** (no Chart.js, no D3, no Vue). Use SVG inline for any chart/diagram
   shapes. Simple CSS transitions are fine if they add value; avoid heavy JS animations.
@@ -23,7 +23,7 @@ and a mood**; this file is the **hard rules of the medium**.
 - **Consistent spacing system:** use multiples of 8px (8, 16, 24, 32, 40, 48, 64) for all
   padding, margin, and gap values. Never use arbitrary pixel values.
 - **Generous padding inside cards/panels:** minimum 24px on all sides; 32–40px for primary panels.
-- **No content flush to the page edge.** The 1600px container must have at least 40px padding on
+- **No content flush to the page edge.** The 1400px container must have at least 40px padding on
   left and right inside it.
 - **Arrows and connectors in diagrams:** use inline SVG with `<line>` + `marker-end`, or CSS
   border tricks. Never use emoji arrows (→ ➡) as structural connectors in diagrams.
@@ -72,7 +72,7 @@ and a mood**; this file is the **hard rules of the medium**.
 ## Build and verify workflow
 
 1. Read the chosen `templates/<slug>/design.md` for the palette and mood.
-2. Write the HTML file with all styles inline. Width 1600px, auto height.
+2. Write the HTML file with all styles inline. Width 1400px, auto height.
 3. **Open the file in a browser (or render a screenshot) and look at it.** Fix what you see:
    - Text overflowing its container
    - Content too close to edges (padding < 24px)
