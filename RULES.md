@@ -71,13 +71,6 @@ and a mood**; this file is the **hard rules of the medium**.
 ## Build and verify workflow
 
 1. Read the chosen `templates/<slug>/design.md` for the palette and mood.
-2. Write the HTML file with all styles inline. Width 1400px, auto height.
-3. **Open the file in a browser (or render a screenshot) and look at it.** Fix what you see:
-   - Text overflowing its container
-   - Content too close to edges (padding < 24px)
-   - Inconsistent spacing between sections
-   - Color contrast issues
-   - Any meta/process text that leaked onto the page
-4. **Fix by editing the file in place with small targeted edits** — never rewrite the whole file
-   to fix a local issue. Batch all fixes you see in one pass before re-checking.
-5. Deliver the file path and a rendered screenshot so the user can see the result immediately.
+2. Write the HTML file with all styles inline. Responsive width, auto height.
+3. Deliver the file path immediately so the user can open it. Only fix obvious problems you can detect without rendering: unclosed tags, inline style typos, meta text that leaked onto the page.
+4. If the user reports a visual issue, **fix in-place with small targeted edits** — never rewrite the whole file to fix a local issue.

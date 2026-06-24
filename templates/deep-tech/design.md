@@ -72,6 +72,7 @@ font-family: 'Outfit', 'Noto Sans SC', -apple-system, "PingFang SC", "Microsoft 
 - **Prose text between boards:** white text on `#060A14`. Use `.callout` highlight boxes for key quotes. Use `.pill-row` pill lists for pros/cons.
 - **Spacing:** 8px grid. Board gap 48px. Inner card gap 16–24px. Section gap 56px.
 - **Grid:** mix 2-, 3-, 5-column grids freely. Use `align-items: stretch` for equal-height cards.
+- **Visualize data as graphics, not text blocks.** Prefer SVG flow diagrams, bar/progress indicators, timeline nodes, and stat callouts over plain card+text layouts. Any sequence, process, or comparison should be drawn, not just listed.
 - **No emoji.** No decorative emoji anywhere on the canvas.
 
 ---

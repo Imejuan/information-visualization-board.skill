@@ -31,19 +31,18 @@ No tools to install. Output is pure HTML — just write the file and open it.
 
 1. **Understand the board.** Find out what the user wants: content, purpose, audience. Ask one short
    question if unclear.
-2. **Present both styles and ask the user to choose.** ALWAYS do this before building. Show the
-   style menu exactly like this:
+2. **Present both styles, give a recommendation, and ask the user to choose.** ALWAYS do this before building. Based on the content type, add one line recommending a style with a brief reason. Show the style menu exactly like this:
 
    > 请选择风格：
    >
    > | # | 风格名 | 画布 | 气质 | 适合场景 |
    > |---|--------|------|------|----------|
-   > | 1 | **Deep Tech** | 深空蓝底 `#060A14` | 科技感渐变，青色光晕，沉浸感强 | 技术方案、论文讲解、架构图、AI/科技内容 |
+   > | 1 | **Deep Tech** | 蓝底 `#0057FF` | 科技感渐变，青色光晕，沉浸感强 | 技术方案、论文讲解、架构图、AI/科技内容 |
    > | 2 | **Bold Pop** | 近黑底 `#1A1A1A` | 高对比撞色，大圆角，编辑感强 | 活动海报、嘉宾名单、产品发布、社交卡片 |
    >
-   > 回复 **1** 或 **2** 即可。
+   > （根据你的内容，推荐风格 X — 一句理由。）回复 **1** 或 **2** 即可。
 
-   Wait for the user's reply before proceeding. Do NOT pick a style on the user's behalf.
+   Recommendation logic: technical/data/research content → recommend **1 Deep Tech**; event/product/social/editorial content → recommend **2 Bold Pop**. Always wait for the user's reply before proceeding.
 
 3. **Confirm the chosen style** in one line, then proceed to build.
 4. **Build it.** Read [`RULES.md`](RULES.md) and **only the chosen** `templates/<slug>/design.md`, then:
