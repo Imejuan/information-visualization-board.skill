@@ -9,23 +9,23 @@ document graphics, and PPT-style layouts.
 
 ## Style 1 — Deep Tech
 
-**Royal blue canvas. Cyan-blue gradient. Technical and cinematic.**
+**Warm gray canvas. Vivid violet + lime green. Editorial-technical.**
 
-Royal blue `#0057FF` canvas with multi-layer card surfaces (`#0A0F1E` / `#131B2E`). Cyan `#22dce0`
-and blue `#4DA6FF` gradient accents do all the organizing work: section header fills, border glows,
-label colors. Hard gradient fills for CTA blocks. Typography: Outfit + Noto Sans SC.
+Warm gray `#E8E8E3` canvas. Boards are white with bold `2px solid #1A1A1A` borders. Vivid violet
+`#3D32E8` does all the accent work: key nodes, era tags, SVG connectors. Lime green `#C9F135` marks
+new additions and callout highlights. Dark `#1A1A1A` blocks group related content with white text.
+No gradients, no shadows. Typography: Outfit + Noto Sans SC.
 
 | Property | Value |
 |---|---|
-| Canvas | `#0057FF` royal blue |
-| Card surfaces | `#0A0F1E` / `#131B2E` layered dark panels |
-| Primary accent | `#22dce0` cyan — borders, labels, glows |
-| Secondary accent | `#4DA6FF` blue — arrows, links, secondary labels |
-| Gradient header | `linear-gradient(135deg, #0396FF → #ABDCFF)` — section fills |
-| Gradient fill | `linear-gradient(135deg, #0396FF → #22dce0)` — CTA, stat cards |
-| Body text | `#AABBD4` on dark |
-| Formality | Medium — technical, cinematic |
-| Vibe | Mission control meets deep-space dashboard |
+| Canvas | `#E8E8E3` warm gray |
+| Board bg | `#FFFFFF` white + `2px solid #1A1A1A` border |
+| Primary accent | `#3D32E8` violet — key nodes, era tags, connectors |
+| Highlight accent | `#C9F135` lime — new organs, callout borders, warning chips |
+| Dark blocks | `#1A1A1A` — dept/category group containers |
+| Body text | `#1A1A1A` on light · `#FFFFFF` on dark |
+| Formality | Medium — technical, graphic, editorial |
+| Vibe | Modern design agency meets structured information architecture |
 | Best for | Technical diagrams, architecture explainers, AI/science content, paper breakdowns |
 
 Template: [`templates/deep-tech/design.md`](templates/deep-tech/design.md)
