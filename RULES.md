@@ -11,7 +11,7 @@ and a mood**; this file is the **hard rules of the medium**.
 - **No external fonts.** Use the system font stack:
   `font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;`
   This gives clean CJK + Latin rendering on macOS, Windows, and Linux without any download.
-- **Responsive content column:** `max-width: 1400px; width: 100%; margin: 0 auto; padding: 0 40px; box-sizing: border-box;`. Height is auto — let content define the length. Never set a fixed pixel `width` on the page container. Never set a fixed height on the page body.
+- **Responsive width:** The page container must use `width: 100%; padding: 0 40px; box-sizing: border-box;`. Do NOT set any `max-width` or fixed `width`. Height is auto — let content define the length. Never set a fixed height on the page body.
 - **No JavaScript libraries** (no Chart.js, no D3, no Vue). Use SVG inline for any chart/diagram
   shapes. Simple CSS transitions are fine if they add value; avoid heavy JS animations.
 

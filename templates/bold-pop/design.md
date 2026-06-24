@@ -63,7 +63,7 @@ font-family: 'AliMamaShuHei', 'Noto Sans SC', -apple-system, "PingFang SC", "Mic
 
 ## Layout rules
 
-- **Canvas:** `#1A1A1A` full-width background. Content column: `max-width: 1400px; width: 100%; margin: 0 auto; padding: 0 40px; box-sizing: border-box`.
+- **Canvas:** `#1A1A1A` full-width background. Content: `width: 100%; padding: 0 40px; box-sizing: border-box`. No `max-width`.
 - **Cards:** large `border-radius: 20–24px`. White or cream surface. Hard shadow `6px 6px 0 #FF4520` for key cards. Dark cards have no shadow.
 - **Grid:** use asymmetric grids — e.g. 2:1, 3-column mixed, or stacked. Avoid rigid equal grids.
 - **Accent blocks:** orange-red `#FF4520` fills for header bands, numbered labels, chips, arrow buttons.

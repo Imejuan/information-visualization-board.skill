@@ -50,7 +50,7 @@ No tools to install. Output is pure HTML — just write the file and open it.
    - Write a single self-contained HTML file with all CSS inline in `<style>`.
    - **Style 1 (Deep Tech):** requires Google Fonts — include `@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap');`. Font stack: `'Outfit', 'Noto Sans SC', -apple-system, "PingFang SC", sans-serif`. For flow diagram arrows use inline SVG triangles — do NOT use font-based icons.
    - **Style 2 (Bold Pop):** requires Google Fonts (`Noto Sans SC`) for CJK text — include `@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&display=swap');` in `<style>`. Font stack: `'AliMamaShuHei', 'Noto Sans SC', -apple-system, "PingFang SC", sans-serif`. For arrow icons, use **inline SVG** inside a circle button — do NOT use Material Symbols or font-based icons. Arrow path: `<path d="M5 15L15 5M15 5H7M15 5V13" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>` in a 20×20 SVG.
-   - **响应式宽度**：内容列最大 **1400px**，小屏自动收窄。容器 CSS 必须使用：`max-width: 1400px; width: 100%; margin: 0 auto; padding: 0 40px; box-sizing: border-box;`。高度由内容决定，不固定。
+   - **响应式宽度**：容器 CSS 必须使用：`width: 100%; padding: 0 40px; box-sizing: border-box;`。不设 `max-width`，高度由内容决定，不固定。
    - Use the palette and mood from the chosen template exactly.
    - **Only content goes on the page** — never the user's prompt, the style name, source
      citations, or any process/meta text. (Full rules in `RULES.md`.)
