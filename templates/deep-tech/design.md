@@ -1,8 +1,8 @@
 # Style 1 — Deep Tech
 
-**Deep-space navy canvas. Cyan-blue gradient. Technical and cinematic.**
+**Royal blue canvas. Cyan-blue gradient. Technical and cinematic.**
 
-Dark navy `#060A14` canvas, card surfaces in `#0A0F1E` / `#131B2E`, primary accent is a cyan-to-blue
+Royal blue `#0057FF` canvas, card surfaces in `#0A0F1E` / `#131B2E`, primary accent is a cyan-to-blue
 gradient `#22dce0 → #4DA6FF`. Section headers use a vivid `#0396FF → #ABDCFF` gradient fill.
 Hard cyan glow effects (`box-shadow: 0 0 24px rgba(34,220,224,0.08)`). Typography: Outfit + Noto Sans SC.
 No emoji anywhere.
@@ -15,7 +15,7 @@ Inspired by deep-space dashboards, scientific data visualization, and technical 
 
 | Token | Value | Usage |
 |---|---|---|
-| `--canvas` | `#060A14` | Page / body background |
+| `--canvas` | `#0057FF` | Page / body background |
 | `--surface-0` | `#0A0F1E` | Board / card container fill |
 | `--surface-1` | `#131B2E` | Inner cards, data panels |
 | `--surface-2` | `#1E2940` | Nested surfaces, track fills |
@@ -60,7 +60,7 @@ font-family: 'Outfit', 'Noto Sans SC', -apple-system, "PingFang SC", "Microsoft 
 
 ## Layout rules
 
-- **Canvas:** `#060A14` full-width body. Content column is **1400px** centered, `padding: 48px 0 80px`.
+- **Canvas:** `#0057FF` full-width body. Content column is **max-width 1400px**, `padding: 48px 40px 80px; box-sizing: border-box`.
 - **Boards:** dark container `background: #0A0F1E`, `border-radius: 20px`, `border: 1px solid rgba(34,220,224,0.12)`, `padding: 56px 60px 60px`. Top accent line: `height: 2px; background: linear-gradient(90deg, #0396FF 0%, #22dce0 50%, transparent 100%)` using `::before`.
 - **Board eyebrow:** `font-size: 13px; font-weight: 700; letter-spacing: 2.5px; color: #22dce0; text-transform: uppercase;` with a glowing dot `::before` (`width: 6px; height: 6px; background: #22dce0; border-radius: 50%; box-shadow: 0 0 8px #22dce0`).
 - **Inner cards:** `background: #131B2E; border-radius: 10–16px; border: 1px solid rgba(34,220,224,0.12)`.
@@ -90,7 +90,7 @@ Think "mission control dashboard meets technical white paper."
 
 | Do | Don't |
 |---|---|
-| Deep navy canvas `#060A14` | Light or white backgrounds |
+| Royal blue canvas `#0057FF` | Light or white backgrounds |
 | Cyan `#22dce0` gradient accents | Warm colors, orange, red |
 | Hard cyan glow borders on key cards | Blurred shadows |
 | Mix dark surface layers (#0A0F1E / #131B2E / #1E2940) | Flat single-layer dark backgrounds |

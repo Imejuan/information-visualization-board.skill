@@ -9,15 +9,15 @@ document graphics, and PPT-style layouts.
 
 ## Style 1 — Deep Tech
 
-**Deep-space navy canvas. Cyan-blue gradient. Technical and cinematic.**
+**Royal blue canvas. Cyan-blue gradient. Technical and cinematic.**
 
-Dark navy `#060A14` canvas with multi-layer card surfaces (`#0A0F1E` / `#131B2E`). Cyan `#22dce0`
+Royal blue `#0057FF` canvas with multi-layer card surfaces (`#0A0F1E` / `#131B2E`). Cyan `#22dce0`
 and blue `#4DA6FF` gradient accents do all the organizing work: section header fills, border glows,
 label colors. Hard gradient fills for CTA blocks. Typography: Outfit + Noto Sans SC.
 
 | Property | Value |
 |---|---|
-| Canvas | `#060A14` deep space navy |
+| Canvas | `#0057FF` royal blue |
 | Card surfaces | `#0A0F1E` / `#131B2E` layered dark panels |
 | Primary accent | `#22dce0` cyan — borders, labels, glows |
 | Secondary accent | `#4DA6FF` blue — arrows, links, secondary labels |
